@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.menu_bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.bg{
+    background-color: rgb(238, 217, 178);
+    animation: ami 2s;
+}
+@keyframes ami{
+    0%{
+        top: -50px;
+    }
+    100%{
+        top: 0;
+    }
+}
+.menu_bg ul li a.active{
+    color: aqua !important;
+}
+#banner{
+    height: 700px;
+    background-color: #ffffff;
+}
+
+#about{
+    height: 700px;
+    background-color: gray;
+}
+#blog{
+    height: 700px;
+    background-color: green;
+}
+#footer{
+    height: 700px;
+    background-color: teal;
+}
+.back2top i{
+    height: 50px;
+    width: 50px;
+    background-color: #422626;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+    color: #ffffff;
+}
